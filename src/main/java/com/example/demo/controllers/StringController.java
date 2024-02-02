@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class StringController {
     @GetMapping("/")
     public String getReversedString(){
-        return "Is Spring reversed?" ;
+        return "Is Spring reversed? Yes." ;
     }
 }
